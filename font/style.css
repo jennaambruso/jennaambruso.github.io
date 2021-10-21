@@ -1,0 +1,242 @@
+.r1 {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 80px;
+	left: 100px;
+	border-left: 100px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 250px solid black;
+} 
+.r2 {
+	width: 147px;
+	height: 300px;
+	position: absolute;
+	top: 96px;
+	left: 110px;
+	border-top: 4px solid black;
+	transform: rotate(31deg) ; 
+} 
+
+.r3 {
+	width: 131px;
+	height: 300px;
+	position: absolute;
+	top: 167px;
+	left: 284px;
+	border-top: 4px solid black;
+	transform: rotate(-32deg) ; 
+} 
+.r4 {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 201px;
+	left: 238px;
+	border-left: 40px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 115px solid black;
+	transform: rotate(-32deg);
+} 
+.a1 {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 80px;
+	left: 480px;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 105px solid black;
+	transform: rotate(30deg);
+} 
+.a2 {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 171px;
+	left: 428px;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 105px solid black;
+	transform: rotate(210deg);
+} 
+.a3 {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 77px;
+	left: 527px;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+	border-bottom: 145px solid black;
+	transform: rotate(-30deg);
+} 
+.a4 {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 202px;
+	left: 600px;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+	border-bottom: 145px solid black;
+	transform: rotate(150deg);
+} 
+.a5 {
+	width: 147px;
+	height: 300px;
+	position: absolute;
+	top: 190px;
+	left: 390px;
+	border-top: 4px solid black;
+	transform: rotate(36deg) ; 
+} 
+.n1 {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 80px;
+	left: 700px;
+	border-left: 100px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 250px solid black;
+} 
+
+.n2 {
+	width: 267px;
+	height: 300px;
+	position: absolute;
+	top: 107px;
+	left: 573px;
+	border-top: 4px solid black;
+	transform: rotate(69deg) ; 
+}
+.n3 {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 160px;
+	left: 893px;
+	border-left: 26px solid transparent;
+	border-right: 26px solid transparent;
+	border-bottom: 170px solid black;
+}  
+.g1 {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 80px;
+	left: 1050px;
+	border-left: 100px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 250px solid black;
+	transform: rotate(58deg) ; 
+} 
+.g2 {
+	width: 223px;
+	height: 300px;
+	position: absolute;
+	top: 43px;
+	left: 1058px;
+	border-top: 4px solid black;
+	transform: rotate(195deg) ; 
+}
+.g3 {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 274px;
+	left: 1191px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 100px solid black;
+	transform: rotate(128deg) ; 
+} 
+.e1 {
+	width: 265px;
+	height: 300px;
+	position: absolute;
+	top: 80px;
+	left: 1100px;
+	border-top: 4px solid black;
+	transform: rotate(90deg) ; 
+} 
+.e2 {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 25px;
+	left: 1458px;
+	border-left: 100px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 250px solid black;
+	transform: rotate(-90deg);
+} 
+.e3 {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 160px;
+	left: 1440px;
+	border-left: 26px solid transparent;
+	border-right: 26px solid transparent;
+	border-bottom: 170px solid black;
+	transform: rotate(90deg);
+}  
+.e4 {
+	width: 230px;
+	height: 300px;
+	position: absolute;
+	top: 361px;
+	left: 1381px;
+	border-top: 4px solid black;
+	
+} 
+.s1 {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 30px;
+	left: 1800px;
+	border-left: 26px solid transparent;
+	border-right: 26px solid transparent;
+	border-bottom: 170px solid black;
+	transform: rotate(65deg);
+}  
+.s2 {
+	width: 160px;
+	height: 300px;
+	position: absolute;
+	top: -70px;
+	left: 1825px;
+	border-top: 4px solid black;
+	transform: rotate(210deg) ; 
+}
+.s3 {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 207px;
+	left: 1744px;
+	border-left: 100px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 250px solid black;
+	transform: rotate(74deg) ; 
+} 
+
+p{
+width: 370px;
+position: absolute;
+top: 430px;
+left: 100px;
+font-family: Helvetica; 
+font-size: 18px;
+line-height: 23px;
+}
+
+
+
+
+
+
+
