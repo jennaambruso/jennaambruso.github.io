@@ -1,0 +1,113 @@
+.first {
+	position: absolute;
+  top: -120px;
+  left: 1vw;
+  font-size: 6vw;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  color: transparent;
+  letter-spacing: 6px;
+  -webkit-text-stroke: 3px black;
+}
+.last {
+	position: absolute;
+  top: 35px;
+  left: 1.4vw;
+  font-size: 6vw;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 	100;
+  color: transparent;
+  -webkit-text-stroke: 3px black;
+  letter-spacing: 6px;
+
+}
+.gal{
+	position: absolute;
+  top: 40px;
+  left: 27vw;
+  font-size: 2.5vw;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  color: black;
+}
+
+.name {
+	position: absolute;
+  top: 267px;
+  left: -26vw;
+  font-size: 5vw;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  color: black;
+  letter-spacing: 3px;
+}
+
+
+.date {
+  position: absolute;
+  top: 507px;
+  left: -26vw;
+  font-size: 4vw;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  color: white;
+  -webkit-text-stroke: 3px black;
+  letter-spacing: 3px;
+}
+.loc {
+  position: absolute;
+  top: 614px;
+  left: -26vw;
+  font-size: 2vw;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  color: black;
+  letter-spacing: 2px;
+}
+.time {
+  position: absolute;
+  top: 652px;
+  left: -26vw;
+  font-size: 2vw;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  color: black;
+  letter-spacing: 2px;
+}
+.cash{
+  position: absolute;
+  top: 690px;
+  left: -26vw;
+  font-size: 2vw;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  color: black;
+  letter-spacing: 2px;
+}
+.web{
+  position: absolute;
+  top: 710px;
+  left: -3vw;
+  font-size: 1.5vw;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  color: black;
+  letter-spacing: 1px;
+}
+.myimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("pics.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: .8;
+}
+
+@media (max-width: 390px) {
+  .myimg{
+    
+  }
+}
