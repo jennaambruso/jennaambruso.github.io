@@ -1,0 +1,55 @@
+.box1 {
+	width: 400px;
+	height: 400px;
+	background-color: rgb(200, 20, 42);
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.box2 {
+	width: 400px;
+	height: 400px;
+	background-color: black;
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.box2 {
+	width: 400px;
+	height: 400px;
+	background-color: black;
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.box3 {
+	width: 400px;
+	height: 400px;
+	background-color: rgb(200, 20, 42);
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  left: 100px;
+}
+
+
+
+
+
+
+
+
+
