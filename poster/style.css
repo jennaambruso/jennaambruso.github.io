@@ -110,67 +110,70 @@
 @media (max-width: 390px) {
   .myimg{
     position: absolute;
-    top: -33vh;
+    top: -35vh;
     left: 0;
     transform: rotate(180deg);
+
   }
     
     .first{
       position: absolute;
-    top: 37vh;
+    top: 30vh;
     left: 3vw;
-    font-size: 14vw;
+    font-size: 21vw;
+    letter-spacing: 1.5px;
     }
     .last{
       position: absolute;
-    top: 44vh;
+    top: 39vh;
     left: 3vw;
-    font-size: 14vw;
+    font-size: 21vw;
+     letter-spacing: 1.5px;
     }
     .name{
       position: absolute;
-    top: 29vh;
+    top: 61vh;
     left: 5vw;
-    font-size: 10vw;
+    font-size: 14vw;
     }
     .gal{
       position: absolute;
-    top: 40vh;
-    left: 40vw;
-    font-size: 8vw;
+    top: 35vh;
+    left: 47vw;
+    font-size: 9vw;
     }
     .date{
       position: absolute;
-    top: 62vh;
+    top: 78.5vh;
     left: 3vw;
-    font-size: 7vw;
+    font-size: 9vw;
     }
     .loc{
       position: absolute;
-    top: 66vh;
+    top: 83vh;
     left: 3vw;
-    font-size: 4vw;
+    font-size: 7vw;
     letter-spacing: 1px;
     }
     .time{
       position: absolute;
-    top: 68.5vh;
+    top: 86.5vh;
     left: 3vw;
-    font-size: 4vw;
+    font-size: 7vw;
     letter-spacing: 1px;
     }
     .cash{
        position: absolute;
-    top: 71vh;
+    top: 90vh;
     left: 3vw;
-    font-size: 4vw;
+    font-size: 7vw;
     letter-spacing: 1px;
     }
     .web{
       position: absolute;
-    top: 75vh;
-    left: 50vw;
-    font-size: 3vw;
+    top: 96vh;
+    left: 56vw;
+    font-size: 5vw;
     letter-spacing: 1px;
     }
   }
