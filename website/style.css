@@ -406,8 +406,8 @@ color: whitesmoke;
 .line2 {
      position: absolute;
   top: 420px;
-  left: 400px;
-  font-size: 97px;
+  left: 405px;
+  font-size: 98px;
   font-family: 'Bebas Neue';
   font-weight: 400;
   color: rgb(250, 20, 50);
@@ -421,7 +421,16 @@ color: whitesmoke;
   font-weight: 400;
 color: whitesmoke;
 }
-
+h2 {
+  position: absolute;
+  top: 580px;
+  left: 110px;
+  width: 1185px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+color: whitesmoke;
+}
 
 
 
