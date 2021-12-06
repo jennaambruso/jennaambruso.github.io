@@ -1,0 +1,449 @@
+body {
+  background-color: black;
+}
+
+.first{
+  position: absolute;
+  top: 5px;
+  left: 105px;
+  font-size: 93px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+color: rgb(250, 20, 50);
+}
+.last{
+  position: absolute;
+  top: -13px;
+  left: 335px;
+  font-size: 187px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: rgb(250, 20, 50);
+}
+.iconic{
+  position: absolute;
+  top: 245px;
+  left: 105px;
+  font-size: 40px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: white;
+}
+.about{
+	position: absolute;
+  top: 77px;
+  left: 1169px;
+  font-size: 18px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.out {
+	position: absolute;
+	top: 66px;
+	left: 1157px;
+	width: 110px;
+	height: 62px;
+	background-color: transparent;
+	outline-style: solid;
+	outline-color: rgb(250, 20, 50);
+}
+.rear{
+	position: absolute;
+  top: 200px;
+  left: 105px;
+  width: 300px;
+  height: 400px;
+  background-image: url("rear2.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+.birds{
+	position: absolute;
+  top: 250px;
+  left: 465px;
+  width: 250px;
+  height: 300px;
+  background-image: url("birds.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.rope{
+	position: absolute;
+  top: 250px;
+  left: 775px;
+  width: 250px;
+  height: 300px;
+  background-image: url("rope.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.thirty {
+	position: absolute;
+  top: 240px;
+  left: 1085px;
+  width: 265px;
+  height: 320px;
+  background-image: url("39.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mail {
+	position: absolute;
+  top: 540px;
+  left: 105px;
+  width: 265px;
+  height: 320px;
+  background-image: url("mail.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.train {
+	position: absolute;
+  top: 540px;
+  left: 450px;
+  width: 265px;
+  height: 320px;
+  background-image: url("train.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.psycho {
+	position: absolute;
+  top: 540px;
+  left: 775px;
+  width: 265px;
+  height: 320px;
+  background-image: url("psycho.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.vert {
+	position: absolute;
+  top: 540px;
+  left: 1085px;
+  width: 265px;
+  height: 320px;
+  background-image: url("vert.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.n1 {
+	 position: absolute;
+  top: 505px;
+  left: 205px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: white;
+}
+.n2 {
+	 position: absolute;
+  top: 505px;
+  left: 555px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: white;
+}
+.n3 {
+	 position: absolute;
+  top: 505px;
+  left: 885px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: white;
+}
+.n4 {
+	 position: absolute;
+  top: 505px;
+  left: 1175px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: white;
+}
+.n5 {
+	 position: absolute;
+  top: 815px;
+  left: 195px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: white;
+}
+.n6 {
+	 position: absolute;
+  top: 815px;
+  left: 500px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: white;
+}
+.n7 {
+	 position: absolute;
+  top: 815px;
+  left: 880px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: white;
+}
+.n8 {
+	 position: absolute;
+  top: 815px;
+  left: 1180px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: white;
+}
+.Rear {
+  position: absolute;
+  top: 30px;
+  left: 120px;
+  font-size: 100px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+color: rgb(250, 20, 50);
+}
+
+.wind{
+  position: absolute;
+  top: 30px;
+  left: 297px;
+  font-size: 100px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+color: rgb(250, 20, 50);
+}
+.m1 {
+  position: absolute;
+  top: 180px;
+  left: 120px;
+  width: 1200px;
+  height: 550px;
+  background-color: white;
+}
+.b1 {
+  position: absolute;
+  top: 30px;
+  left: 120px;
+  font-size: 100px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+color: rgb(250, 20, 50);
+}
+.b2 {
+  position: absolute;
+  top: 30px;
+  left: 253px;
+  font-size: 100px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+color: rgb(250, 20, 50);
+}
+.m2 {
+  position: absolute;
+  top: 180px;
+  left: 120px;
+  width: 1200px;
+  height: 550px;
+  background-color: white;
+}
+.r1 {
+  position: absolute;
+  top: 30px;
+  left: 120px;
+  font-size: 100px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+color: rgb(250, 20, 50);
+}
+.m3 {
+  position: absolute;
+  top: 180px;
+  left: 120px;
+  width: 1200px;
+  height: 550px;
+  background-color: white;
+}
+.s1 {
+  position: absolute;
+  top: 30px;
+  left: 120px;
+  font-size: 100px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+color: rgb(250, 20, 50);
+}
+.s2 {
+  position: absolute;
+  top: 30px;
+  left: 249px;
+  font-size: 100px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+color: rgb(250, 20, 50);
+}
+.m4 {
+  position: absolute;
+  top: 180px;
+  left: 120px;
+  width: 1200px;
+  height: 550px;
+  background-color: white;
+}
+.bm1 {
+  position: absolute;
+  top: 30px;
+  left: 120px;
+  font-size: 100px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+color: rgb(250, 20, 50);
+}
+.m5 {
+  position: absolute;
+  top: 180px;
+  left: 120px;
+  width: 1200px;
+  height: 550px;
+  background-color: white;
+}
+.st1 {
+  position: absolute;
+  top: 30px;
+  left: 120px;
+  font-size: 100px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+color: rgb(250, 20, 50);
+}
+.st2 {
+  position: absolute;
+  top: 30px;
+  left: 489px;
+  font-size: 100px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+color: rgb(250, 20, 50);
+}
+.m6 {
+  position: absolute;
+  top: 180px;
+  left: 120px;
+  width: 1200px;
+  height: 550px;
+  background-color: white;
+}
+.p1 {
+  position: absolute;
+  top: 30px;
+  left: 120px;
+  font-size: 100px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+color: rgb(250, 20, 50);
+}
+.m7 {
+  position: absolute;
+  top: 180px;
+  left: 120px;
+  width: 1200px;
+  height: 550px;
+  background-color: white;
+}
+.v1 {
+  position: absolute;
+  top: 30px;
+  left: 120px;
+  font-size: 100px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+color: rgb(250, 20, 50);
+}
+.m8 {
+  position: absolute;
+  top: 180px;
+  left: 120px;
+  width: 1200px;
+  height: 550px;
+  background-color: white;
+}
+.hitch {
+position: absolute;
+  top: 0px;
+  left: 50px;
+  width: 2000px;
+  height: 400px;
+  background-image: url("hitch1.jpg");
+  background-size: contain;
+  background-position: fixed;
+  background-repeat: no-repeat;
+}
+.line1 {
+   position: absolute;
+  top: 430px;
+  left: 110px;
+  font-size: 46px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+color: whitesmoke;
+}
+.line2 {
+     position: absolute;
+  top: 420px;
+  left: 405px;
+  font-size: 98px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: rgb(250, 20, 50);
+}
+.line3 {
+   position: absolute;
+  top: 430px;
+  left: 1090px;
+  font-size: 46px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+color: whitesmoke;
+}
+h2 {
+  position: absolute;
+  top: 580px;
+  left: 110px;
+  width: 1185px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
