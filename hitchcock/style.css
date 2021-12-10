@@ -433,8 +433,8 @@ color: whitesmoke;
 }
 .back {
   position: absolute;
-  top: 820px;
-  left: 110px;
+  top: 30px;
+  left: 20px;
   width: 5px;
   height: 5px;
   transform: scale(.1);
@@ -444,7 +444,7 @@ color: whitesmoke;
   position: absolute;
   top: 710px;
   left: 117px;
-  width: 1025px;
+  width: 600px;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -454,7 +454,7 @@ color: whitesmoke;
   position: absolute;
   top: 710px;
   left: 117px;
-  width: 1220px;
+  width: 600px;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -464,7 +464,7 @@ color: whitesmoke;
   position: absolute;
   top: 710px;
   left: 117px;
-  width: 1220px;
+  width: 600px;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -474,7 +474,7 @@ color: whitesmoke;
   position: absolute;
   top: 710px;
   left: 117px;
-  width: 1220px;
+  width: 600px;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -484,7 +484,7 @@ color: whitesmoke;
   position: absolute;
   top: 710px;
   left: 117px;
-  width: 1220px;
+  width: 600px;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -494,7 +494,7 @@ color: whitesmoke;
   position: absolute;
   top: 710px;
   left: 117px;
-  width: 1220px;
+  width: 600px;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -504,7 +504,7 @@ color: whitesmoke;
   position: absolute;
   top: 710px;
   left: 117px;
-  width: 1220px;
+  width: 600px;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -514,16 +514,81 @@ color: whitesmoke;
   position: absolute;
   top: 710px;
   left: 117px;
-  width: 1220px;
+  width: 6000px;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 color: whitesmoke;
 }
+.drear {
+  position: absolute;
+  top: 505px;
+  left: 286px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: rgb(250, 20, 50);
+}
+.dbirds {position: absolute;
+  top: 505px;
+  left: 610px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+ color: rgb(250, 20, 50);
+}
+.drope {
+  position: absolute;
+  top: 505px;
+  left: 904px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: rgb(250, 20, 50);
+}
+.dsteps{
+  position: absolute;
+  top: 505px;
+  left: 1254px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+    color: rgb(250, 20, 50);
+}
+.dmail {
+  position: absolute;
+  top: 815px;
+  left: 262px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: rgb(250, 20, 50);
 
-
-
-
-
-
-
+}
+.dstrange {
+   position: absolute;
+  top: 815px;
+  left: 648px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: rgb(250, 20, 50);
+}
+.dpsycho{
+  position: absolute;
+  top: 815px;
+  left: 914px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+   color: rgb(250, 20, 50);
+}
+.dvertigo{
+  position: absolute;
+  top: 815px;
+  left: 1227px;
+  font-size: 23px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  color: rgb(250, 20, 50);
+}
