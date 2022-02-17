@@ -1,0 +1,94 @@
+body { 
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.hour {
+  position: absolute;
+  top: 10vw;
+  left: 10vw;
+  width: 20vw;
+  height: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-image: url(0.svg);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;
+  animation-name: swapImage;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;  
+}
+
+.minute {
+  position: absolute;
+  top: 10vw;
+  left: 40vw;
+  width: 20vw;
+  height: 20vw;
+  margin-left: auto;
+  margin-right: auto;  
+  margin-bottom: 20px;
+  background-image: url(0.svg);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;  
+  animation-name: swapImage;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;  
+}
+
+.second {
+  position: absolute;
+  top: 10vw;
+  left: 70vw;
+  width: 20vw;
+  height: 20vw;
+  margin-left: auto;
+  margin-right: auto;  
+  background-image: url(0.svg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation-name: swapImage;
+  animation-duration: .6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes swapImage {
+  0% {
+    background-image: url(0.svg);
+  }
+  10% {
+    background-image: url(1.svg);
+  }
+  20% {
+    background-image: url(2.svg);
+  }  
+  30% {
+    background-image: url(3.svg);
+  }  
+  40% {
+    background-image: url(4.svg);
+  }  
+  50% {
+    background-image: url(5.svg);
+  }
+  60% {
+    background-image: url(6.svg);
+  }
+  70% {
+    background-image: url(7.svg);
+  }  
+  80% {
+    background-image: url(8.svg);
+  }  
+  90% {
+    background-image: url(9.svg);
+  }  
+  100% {
+    background-image: url(0.svg);
+  }    
+}

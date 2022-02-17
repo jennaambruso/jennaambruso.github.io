@@ -1,0 +1,50 @@
+body { 
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.hour {
+  position: absolute;
+  top: 10vw;
+  left: 10vw;
+  width: 20vw;
+  height: 20vw;
+  animation-name: animationA;
+  animation-duration: 1800s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;  
+}
+
+.minute {
+  position: absolute;
+  top: 10vw;
+  left: 40vw;
+  width: 20vw;
+  height: 20vw;
+  animation-name: animationA;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;  
+}
+
+.second {
+  position: absolute;
+  top: 10vw;
+  left: 70vw;
+  width: 20vw;
+  height: 20vw;
+  animation-name: animationA;
+  animation-duration: .5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animationA {
+  0% {
+    background-color: rgb(20, 160, 200);
+  }
+  100% {
+    background-color: rgb(255, 2550, 255);
+  }
+}
