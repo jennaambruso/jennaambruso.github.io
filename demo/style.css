@@ -41,18 +41,17 @@ body {
 
 .score {
   position: absolute;
-  top: 10px;
+  top: 20px;
   right: 10px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 50%;
-  background-color: rgb(243, 128, 25);
-  color: white;
+  width: 45px;
+  height: 45px;
+  background-image: url("./img/score.png");
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 32px;
+
   text-align: center;
+
 }
 
 .background {
@@ -61,19 +60,27 @@ body {
   margin: auto;
   width: 1024px;
   height: 748px;
-  background-image: url("./img/back.jpg");
+  background-image: url("./img/backlast.png");
   background-size: contain;
   background-repeat: no-repeat;
   pointer-events: none;
+}
+.collectable{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  bottom: 300px;
+  left: 340px;
+  background-image: url("./img/bigframe.png");
+  background-size: contain;
 }
 
 .hero {
   position: absolute;
   bottom: 170px;
-
-  left: 400px;
-  width: 300px;
-  height: 300px;
+left: 400px;
+  width: 250px;
+  height: 250px;
   background-image: url("./img/idling-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 1000ms;
@@ -105,10 +112,10 @@ body {
 }
 
 .hero.doing-action {
-  background-image: url("./img/action-sprite5.png");
+  background-image: url("./img/action-sprite9.png");
   animation-name: spriteSheet;
   animation-duration: 1000ms;  /* set to same number in initialize() as well or it will look weird */
-  animation-timing-function: steps(5); /* number of frames in sprite (not counting the final blank space) */
+  animation-timing-function: steps(15); /* number of frames in sprite (not counting the final blank space) */
 }
 
 .npc {
@@ -126,9 +133,23 @@ body {
 }
 
 .npc.was-interacted {
-  opacity: 0;
-  transition: opacity 400ms linear;
+  background-image: url("./img/npc-interact20.png");
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  animation-fill-mode: ;
+  animation-name: spriteSheet;
+  animation-duration: 800ms;
+  animation-timing-function: steps(5); 
+  animation-iteration-count: infinite;  
+
 }
+.npc.was-hit {
+ right: 1200px !important
+
+}
+
+
 
 .preload-image {
   position: absolute;
@@ -143,6 +164,20 @@ body {
     background-position: 0% center;
   }
   100% {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     background-position: 100% center;
   }
 }
